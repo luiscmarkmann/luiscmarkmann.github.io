@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="philo-icon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&display=swap" rel="stylesheet">
+    <title>Über die Grundlage der Moral - Arthur Schopenhauer</title>
+</head>
+<body>
+    <div class="alles">
+        <h1>Wie würde Arthur Schopenhauer deine Hanldung beurteilen?</h1>
+        <div class="sit">
+            <h1 id="sit">Situation:</h1>
+            <p id="text">
+            Nehmen wir an du gehst an einem ganz normalen Tag zur Schule. 
+            Während du gehst siehst du am Straßenrand eine kleine Katze sitzen, 
+            der es sichtbar schlecht geht. Keine Hilfe außer dir ist in Sicht.
+            </p>
+        </div>
+        <div class="choice1">
+            <p style="font-size: 19px;"><b>Rettest du die Katze?</b></p>
+            <p><input type="radio" name="answer1" id="Ja" onmousedown="change(this.id)" value="Ja"> Ja</p>
+            <p><input type="radio" name="answer1" id="Nein" onmousedown="change(this.id)" value="Nein"> Nein</p>
+            <button onclick="buttoneins()">Fertig!</button>
+        </div>
+        <div class="choice2" id="choice2">
+            <p style="font-size: 19px;"><b>Warum hast du die Katze gerettet?</b></p>
+            <p><input type="radio" id="answer2.1" name="answer2" onmousedown="change(this.id)" value="Suess"> Weil Katzen süß sind</p>
+            <p><input type="radio" id="answer2.2" name="answer2" onmousedown="change(this.id)" value="Ehre"> Damit ich anderen Leuten von meinen Taten berichten kann</p>
+            <p><input type="radio" id="answer2.3" name="answer2" onmousedown="change(this.id)" value="Mitleid"> Aus Mitleid zur Katze</p>
+            <p><input type="radio" id="answer2.4" name="answer2" onmousedown="change(this.id)" value="suess"> Aus anderen Gründen</p>
+            <button onclick="buttonzwei()">Fertig!</button>
+        </div>
+    </div>
+    <div class="schopi">
+        <div id="schopi">
+            <img src="schopi.png" width="175px" alt="Schopenhauer Icon">
+        </div>
+        <div id="wolke">
+            <img src="question-mark.png" width="100px" alt="Fragenzeichen Wolke" id="questionmark" >
+        </div>
+    </div>
+</body>
+</html>

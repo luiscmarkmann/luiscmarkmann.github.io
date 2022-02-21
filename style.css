@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    
+}
+
+body {
+    background-image: url("philo-background.jpg");
+    background-color: #cccccc;
+}
+
+.alles {
+    width: 65%;
+    background-color: #f4e4be;
+    border-radius: 12px;
+    font-family: 'Roboto Serif', sans-serif;
+    margin: 1%;
+    padding: 13px;
+    line-height: 28px;
+    float: left;
+}
+
+.schopi {
+    width: 25%;
+    background-color: #f4e4be;
+    float: right;
+    height: 200px;
+    padding: 10px;
+    border-radius: 12px;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+.choice2 {
+    display: none;
+    padding-top: 13px;
+}
+
+button {
+    background: rgb(51, 136, 222);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+button:hover {
+    background:#4267B2;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+h1 {
+    font-size: 35px;
+    line-height: 40px;
+    padding-bottom: 15px;
+}
+
+#sit {
+    font-size: 25px;
+    line-height: 35px;
+    padding: 0;
+}
+
+#text {
+    padding-bottom: 15px;
+}
+
+#questionmark {
+    top: -40px;
+}
+
+#wolke{
+    float: right;
+    padding-right: 40px;
+    width: 100px;
+}
+#schopi {
+    float: left;
+    width: 175px;
+}
+
+@media only screen and (max-width: 1260px) {
+    #schopi {
+       width: 160px;
+    }
+    #wolke {
+        width: 90px;
+    }
+  }
+
+  @media only screen and (max-width: 1160px) {
+    #wolke {
+        width: 70px;
+    }
+    @media only screen and (max-width: 1080px) {
+        .schopi {
+            display: none;
+        }
+        .alles {
+            width: 96%;
+        }
+  }
+}
